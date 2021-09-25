@@ -16,7 +16,7 @@ cd insert; make;
 # Usage
 
 ```bash
-./insert -s <string> -d <delimiter> -i <interval>
+./insert -s <string> -d <delimiter> -i <interval> -r <optional - flip endianness>
 
 # example input
 ./insert -s aaabbbcccddd -d - -i 3
